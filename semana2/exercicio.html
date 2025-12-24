@@ -1,0 +1,82 @@
+<!-- Declara o tipo do documento como HTML5 -->
+<!DOCTYPE html>
+<!-- Início do documento HTML, idioma inglês -->
+<html lang="en">
+
+<head>
+    <!-- Define a codificação de caracteres como UTF-8 -->
+    <meta charset="UTF-8" />
+    <!-- Torna o site responsivo em dispositivos móveis -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Título da página exibido na aba do navegador -->
+    <title>Formulário de Cadastro</title>
+</head>
+
+<body>
+    <!-- Título principal da página -->
+    <h1>Cadastro de cursos</h1>
+
+    <!-- Início do formulário, envia dados para /action_page.php -->
+    <form action="/action_page.php">
+        <!-- Campo para digitar o nome -->
+        <label>
+            Digite aqui seu nome
+            <input type="text" name="nome" />
+        </label>
+
+        <br />
+
+        <!-- Campo para digitar o email -->
+        <label>
+            Digite aqui seu email
+            <input type="text" name="email" />
+        </label>
+
+        <br />
+
+        <!-- Campo para digitar a senha -->
+        <label>
+            Digite aqui sua senha
+            <input type="password" name="senha" />
+        </label>
+
+        <br />
+
+        <!-- Grupo de radios para escolher um curso -->
+        <label>
+            <input type="radio" name="curso" value="html" />
+            HTML
+        </label>
+
+        <br />
+
+        <label>
+            <input type="radio" name="curso" value="css" />
+            CSS
+        </label>
+
+        <br />
+
+        <label>
+            <input type="radio" name="curso" value="javascript" />
+            JavaScript
+        </label>
+
+        <br />
+
+        <label>
+            <input type="radio" name="curso" value="python" />
+            Python
+        </label>
+
+        <br />
+
+        <label>
+            <input type="radio" name="curso" value="csharp" />
+            C#
+        </label>
+    </form>
+</body>
+
+<!-- Fim do documento HTML -->
+</html>

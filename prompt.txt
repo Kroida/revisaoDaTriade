@@ -1,1 +1,1 @@
-Crie um resumo detalhado e impessoal dos conteúdos de HTML estudados nesta semana, explicando a estrutura básica, principais tags, organização do conteúdo, semântica e boas práticas. O texto deve ser claro, didático e pronto para ser inserido no README.
+Crie um resumo detalhado e impessoal dos conteúdos de HTML estudados nesta semana, explicando a estrutura básica, principais tags, organização do conteúdo, semântica e boas práticas. O texto deve ser claro, didático e pronto para ser inserido no README, caso não exista crie um.
