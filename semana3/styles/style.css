@@ -1,0 +1,60 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/* Selecionando uma imagem de fundo */
+body {
+    max-height: 100vh;
+    background-image: url("../src/download.jpg");
+    background-size: cover;
+}
+
+
+/* Selecionando um elemento */
+h1 {
+    font-size: 70px;
+}
+
+p {
+    font-size: 30px;
+}
+
+p:last-of-type {
+    font-size: 20px;
+    font-style: italic;
+}
+
+p span {
+    color: pink;
+}
+
+/* Selecionando uma class */
+.card {
+    margin: 35vh auto;
+    padding: 20px;
+    width: 50vh;
+    border: 2px solid black;
+    border-radius: 10px;
+    text-align: center;
+}
+
+
+/* Selecionando um ID */
+#butaum {
+    margin-top: 20px;
+    padding: 10px;
+    border: black 1px solid;
+    border-radius: 10px;
+}
+
+#butaum:hover {
+    margin-top: 20px;
+    padding: 10px;
+    border: white 1px solid;
+    border-radius: 10px;
+    color: white;
+    background-color: black;
+    transform: scale(1.1);
+    transition: 0.2s;
+}
