@@ -12,8 +12,8 @@ p {
 }
 ```
 
-✔ Todos os `<p>` ficam azuis
-❌ Pouco específico (difícil de manter em projetos médios/grandes)
+*✔ Todos os `<p>` ficam azuis
+*❌ Pouco específico (difícil de manter em projetos médios/grandes)
 
 ---
 
@@ -51,9 +51,9 @@ Identifica **um único elemento na página**.
 <h1 id="titulo">Título</h1>
 ```
 
-⚠️ Alta especificidade
-⚠️ Dificulta manutenção e reuso
-📌 Evite usar para layout ou estilos globais
+*⚠️ Alta especificidade
+*⚠️ Dificulta manutenção e reuso
+*📌 Evite usar para layout ou estilos globais
 
 ---
 
@@ -69,7 +69,7 @@ p {
 }
 ```
 
-📌 HEX e HSL são os mais usados em projetos profissionais
+*📌 HEX e HSL são os mais usados em projetos profissionais
 
 ---
 
@@ -133,8 +133,8 @@ Todo elemento HTML é uma **caixa** composta por:
 }
 ```
 
-📌 O tamanho final **não é só o `width`**
-📌 `padding` e `border` aumentam a caixa
+*📌 O tamanho final **não é só o `width`**
+*📌 `padding` e `border` aumentam a caixa
 
 ---
 
@@ -188,8 +188,8 @@ span {
 }
 ```
 
-❌ Não aceita `width` e `height`
-✔ Ideal para texto e destaques pequenos
+*❌ Não aceita `width` e `height`
+*✔ Ideal para texto e destaques pequenos
 
 ---
 
