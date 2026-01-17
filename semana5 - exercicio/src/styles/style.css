@@ -1,0 +1,46 @@
+* {
+    margin: 0;
+}
+
+html {
+    box-sizing: border-box;
+    max-height: 100vh;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 10px;
+    width: 20vw;
+    height: 50%;
+    margin: 35vh 0;
+    padding: 50px;
+    border: 1px solid black;
+    text-align: center;
+}
+
+#aparecer {
+    width: 177px;
+    text-align: left;
+}
+
+#aparecer label {
+    font-style: normal;
+    color: black;
+    text-align: left;
+}
+
+#aparecer label p {
+    font-style: italic;
+    color: red;
+    text-align: center;
+}
+
