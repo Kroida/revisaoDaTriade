@@ -1,0 +1,93 @@
+* {
+    margin: 0;
+}
+
+body {
+    background-color: black;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    background: linear-gradient(
+        to top right,
+        green 0%,
+        #4caf50 35%,
+        #6a5acd 50%,
+        #8a2be2 65%,
+        purple 100%
+    );
+    background-size: 300% 300%;
+    animation: gradientMove 10s ease infinite;
+    margin-top: 10vh;
+    padding: 20px;
+    width: 30vw;
+    height: 60vh;
+    border-radius: 20px;
+    position: relative;
+}
+
+.container form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: fit-content;
+    margin-top: 13vh;
+    gap: 10px;
+}
+
+#entryValue {
+    width: 15vw;
+}
+
+.radioContainer {
+    display: block;
+    height: fit-content;
+}
+
+.radioContainer input {
+    margin-top: 10px;
+}
+
+#submitValue {
+    margin-top: 30px;
+}
+
+.hiddenContainer {
+    display: none;
+    background-color: #ffffffff;
+    width: 16vw;
+    height: 35vh;
+    position: absolute;
+    top: 18vh;
+    text-align: center;
+    border-radius: 20px;
+}
+
+.hiddenContainer h1 {
+    margin-top: 6vh;
+}
+
+.hiddenContainer p {
+    font-size: 20px;
+    font-style: italic;
+}
+
+.resetar {
+    margin-top: 2vh;
+}
+
+@keyframes gradientMove {
+    0% {
+        background-position: 0% 100%;
+    }
+    50% {
+        background-position: 100% 0%;
+    }
+    100% {
+        background-position: 0% 100%;
+    }
+}

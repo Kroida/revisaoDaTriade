@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JavaScript Avançado + DOM</title>
+    <link rel="stylesheet" href="src/styles/style.css">
+</head>
+
+<body>
+    <div class="container">
+        <form action="#">
+            <label for="entryValue">Digite seu nome:</label>
+            <input type="text" id="entryValue" required />
+
+            <label for="eRadio">Selecione sua matéria</label>
+
+            <div class="radioContainer">
+                <input type="radio" class="radioValue" name="eRadio" value="FrontEnd" required>
+                <label for="FrontEnd">Front End</label>
+            </div>
+
+            <div class="radioContainer">
+                <input type="radio" class="radioValue" name="eRadio" value="BackEnd" required>
+                <label for="BackEnd">Back End</label>
+            </div>
+
+            <div class="radioContainer">
+                <input type="radio" class="radioValue" name="eRadio" value="FullStack" required>
+                <label for="FullStack">Full Stack</label>
+            </div>
+
+            <button type="submit" id="submitValue">Enviar</button>
+        </form>
+    </div>
+
+    <div class="hiddenContainer">
+        <h1>Seu nome é</h1>
+        <p id="pNome"></p>
+        <h1>Você escolheu</h1>
+        <p id="pRadio"></p>
+    </div>
+
+    <script src="src/scripts/script.js" defer></script>
+</body>
+
+</html>
